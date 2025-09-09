@@ -210,6 +210,6 @@ If you have any questions or need help with the website, please:
 
 ---
 
-**Made with ❤️ for the mathematical community**
+**Made with ❤️ Aftab Irshad**
 
-Visit the live website: [Your GitHub Pages URL]
+Visit the live website: calcspehere.github.io
