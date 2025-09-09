@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CalcSphere - Your ultimate destination for mathematical calculations, tools, and educational resources. Discover advanced calculators, tutorials, and math solutions.">
+    <meta name="keywords" content="calculator, math, mathematics, calculations, tools, education, formulas, geometry, algebra, calculus">
+    <meta name="author" content="CalcSphere">
+    <meta property="og:title" content="CalcSphere - Advanced Mathematical Tools & Calculators">
+    <meta property="og:description" content="Discover powerful mathematical calculators, interactive tools, and comprehensive educational resources. Perfect for students, professionals, and math enthusiasts.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://calcspehere.github.io/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CalcSphere - Advanced Mathematical Tools & Calculators">
+    <meta name="twitter:description" content="Discover powerful mathematical calculators, interactive tools, and comprehensive educational resources. Perfect for students, professionals, and math enthusiasts.">
+    <meta name="twitter:url" content="https://calcspehere.github.io/">
+    
+    <title>CalcSphere - Advanced Mathematical Tools & Calculators</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "CalcSphere",
+        "description": "Advanced mathematical tools and calculators",
+        "url": "https://your-username.github.io/CalcSphere/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://your-username.github.io/CalcSphere/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home">
+                        <i class="fas fa-calculator"></i>
+                        <span>CalcSphere</span>
+                    </a>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#calculators" class="nav-link">Calculators</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#articles" class="nav-link">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tutorials" class="nav-link">Tutorials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav-controls">
+                    <div class="search-container">
+                        <button class="search-toggle" id="searchToggle" aria-label="Toggle search">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <div class="search-dropdown" id="searchDropdown">
+                            <input type="text" class="search-input" id="searchInput" placeholder="Search calculators and articles...">
+                            <div class="search-results" id="searchResults"></div>
+                        </div>
+                    </div>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="hamburger" id="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    
+    <!-- Monetag Pop-under Ad -->
+    <script>
+        (function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('www.revenuecpmgate.com',4889950,document.createElement('script'))
+    </script>
+    
+    <!-- Additional Monetag Direct Link -->
+    <script>
+        window.addEventListener('load', function() {
+            var monetagLink = document.createElement('a');
+            monetagLink.href = 'https://www.revenuecpmgate.com/kiz2zhvcic?key=27b92f0e331d26870784aecc824fe6aa';
+            monetagLink.target = '_blank';
+            monetagLink.style.display = 'none';
+            document.body.appendChild(monetagLink);
+        });
+    </script>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Welcome to <span class="gradient-text">CalcSphere</span></h1>
+                    <p class="hero-description">Your ultimate destination for advanced mathematical calculations, tools, and educational resources. Explore our comprehensive collection of calculators and learn mathematics in an interactive way.</p>
+                    <div class="hero-buttons">
+                        <a href="#calculators" class="btn btn-primary">Explore Calculators</a>
+                        <a href="#articles" class="btn btn-secondary">Read Articles</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="floating-elements">
+                        <div class="floating-card">
+                            <i class="fas fa-square-root-alt"></i>
+                            <span>√x</span>
+                        </div>
+                        <div class="floating-card">
+                            <i class="fas fa-infinity"></i>
+                            <span>∞</span>
+                        </div>
+                        <div class="floating-card">
+                            <i class="fas fa-pi"></i>
+                            <span>π</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ad Container - Top Banner -->
+        <div class="ad-container ad-banner">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : '8ed569a2231942ad9a5b97c827824ecc',
+                    'format' : 'iframe',
+                    'height' : 60,
+                    'width' : 468,
+                    'params' : {}
+                };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/8ed569a2231942ad9a5b97c827824ecc/invoke.js"></script>
+        </div>
+
+        <!-- Featured Calculators Section -->
+        <section id="calculators" class="calculators-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Featured Calculators</h2>
+                    <p>Powerful tools for all your mathematical needs</p>
+                </div>
+                
+                <div class="calculators-grid">
+                    <div class="calculator-card">
+                        <div class="card-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3>Basic Calculator</h3>
+                        <p>Perform basic arithmetic operations with our user-friendly calculator.</p>
+                        <a href="calculators/basic-calculator.html" class="card-link">Use Calculator <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="calculator-card">
+                        <div class="card-icon">
+                            <i class="fas fa-square-root-alt"></i>
+                        </div>
+                        <h3>Scientific Calculator</h3>
+                        <p>Advanced mathematical functions including trigonometry and logarithms.</p>
+                        <a href="#" class="card-link">Use Calculator <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="calculator-card">
+                        <div class="card-icon">
+                            <i class="fas fa-percent"></i>
+                        </div>
+                        <h3>Percentage Calculator</h3>
+                        <p>Calculate percentages, percentage increase, and percentage decrease easily.</p>
+                        <a href="calculators/percentage-calculator.html" class="card-link">Use Calculator <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="calculator-card">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Compound Interest</h3>
+                        <p>Calculate compound interest for investments and savings planning.</p>
+                        <a href="calculators/compound-interest-calculator.html" class="card-link">Use Calculator <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="calculator-card">
+                        <div class="card-icon">
+                            <i class="fas fa-ruler"></i>
+                        </div>
+                        <h3>Unit Converter</h3>
+                        <p>Convert between different units of measurement quickly and accurately.</p>
+                        <a href="#" class="card-link">Use Calculator <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="calculator-card">
+                        <div class="card-icon">
+                            <i class="fas fa-shapes"></i>
+                        </div>
+                        <h3>Geometry Calculator</h3>
+                        <p>Calculate area, perimeter, and volume for various geometric shapes.</p>
+                        <a href="#" class="card-link">Use Calculator <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ad Space 2 - Middle Banner -->
+        <div class="ad-container ad-banner">
+            <script async="async" data-cfasync="false" src="//pl27607977.revenuecpmgate.com/811dd4205e5e6fe25249445e354f7f8f/invoke.js"></script>
+            <div id="container-811dd4205e5e6fe25249445e354f7f8f-2"></div>
+        </div>
+
+        <!-- Articles Section -->
+        <section id="articles" class="articles-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Latest Articles</h2>
+                    <p>Educational content to enhance your mathematical knowledge</p>
+                </div>
+                
+                <div class="articles-grid">
+                    <article class="article-card">
+                        <div class="article-image">
+                            <div class="article-category">Mathematics</div>
+                        </div>
+                        <div class="article-content">
+                            <h3><a href="articles/understanding-compound-interest.html">Understanding Compound Interest: A Complete Guide</a></h3>
+                            <p>Learn how compound interest works and discover strategies to maximize your investments and savings growth over time.</p>
+                            <div class="article-meta">
+                                <span class="article-date">December 8, 2024</span>
+                                <span class="article-read-time">5 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="article-card">
+                        <div class="article-image">
+                            <div class="article-category">Geometry</div>
+                        </div>
+                        <div class="article-content">
+                            <h3><a href="articles/geometry-formulas-guide.html">Essential Geometry Formulas Every Student Should Know</a></h3>
+                            <p>A comprehensive collection of geometry formulas for calculating area, perimeter, volume, and surface area of common shapes.</p>
+                            <div class="article-meta">
+                                <span class="article-date">December 7, 2024</span>
+                                <span class="article-read-time">8 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="article-card">
+                        <div class="article-image">
+                            <div class="article-category">Algebra</div>
+                        </div>
+                        <div class="article-content">
+                            <h3><a href="articles/geometry-formulas-guide.html">Quadratic Equations Explained: Methods and Applications</a></h3>
+                            <p>Master quadratic equations with step-by-step explanations, multiple solving methods, and real-world applications.</p>
+                            <div class="article-meta">
+                                <span class="article-date">December 6, 2024</span>
+                                <span class="article-read-time">10 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="article-card">
+                        <div class="article-image">
+                            <div class="article-category">Statistics</div>
+                        </div>
+                        <div class="article-content">
+                            <h3><a href="articles/probability-basics.html">Probability Basics: From Theory to Practice</a></h3>
+                            <p>Understand probability concepts, learn calculation methods, and explore practical applications in everyday life.</p>
+                            <div class="article-meta">
+                                <span class="article-date">December 5, 2024</span>
+                                <span class="article-read-time">7 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="article-card">
+                        <div class="article-image">
+                            <div class="article-category">Calculus</div>
+                        </div>
+                        <div class="article-content">
+                            <h3><a href="articles/derivatives-introduction.html">Introduction to Derivatives: Concepts and Applications</a></h3>
+                            <p>Learn the fundamentals of derivatives, including rules, techniques, and real-world applications in various fields.</p>
+                            <div class="article-meta">
+                                <span class="article-date">December 4, 2024</span>
+                                <span class="article-read-time">12 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="article-card">
+                        <div class="article-image">
+                            <div class="article-category">Finance</div>
+                        </div>
+                        <div class="article-content">
+                            <h3><a href="articles/financial-mathematics.html">Financial Mathematics: Making Smart Money Decisions</a></h3>
+                            <p>Explore mathematical concepts behind personal finance, including loans, mortgages, and investment calculations.</p>
+                            <div class="article-meta">
+                                <span class="article-date">December 3, 2024</span>
+                                <span class="article-read-time">9 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="view-all-articles">
+                    <a href="#articles" class="btn btn-outline">View All Articles</a>
+                </div>
+            </div>
+        </section>
+
+                <!-- Ad Container - Sidebar -->
+                <div class="ad-container ad-sidebar">
+                    <script type='text/javascript' src='//pl27607969.revenuecpmgate.com/21/cf/f0/21cff0345957042efe167fa2febb3fc3.js'></script>
+                </div>
+
+        <!-- Ad Space 3 - Sidebar Style -->
+        <div class="ad-container ad-sidebar">
+            <script async="async" data-cfasync="false" src="//pl27607977.revenuecpmgate.com/811dd4205e5e6fe25249445e354f7f8f/invoke.js"></script>
+            <div id="container-811dd4205e5e6fe25249445e354f7f8f"></div>
+        </div>
+
+        <!-- Tutorials Section -->
+        <section id="tutorials" class="tutorials-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Interactive Tutorials</h2>
+                    <p>Step-by-step guides to master mathematical concepts</p>
+                </div>
+                
+                <div class="tutorials-grid">
+                    <div class="tutorial-card">
+                        <div class="tutorial-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <h3>Basic Arithmetic</h3>
+                        <p>Master addition, subtraction, multiplication, and division with interactive examples.</p>
+                        <div class="tutorial-stats">
+                            <span><i class="fas fa-clock"></i> 15 min</span>
+                            <span><i class="fas fa-star"></i> Beginner</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tutorial-card">
+                        <div class="tutorial-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <h3>Fractions & Decimals</h3>
+                        <p>Learn to work with fractions, convert to decimals, and perform operations.</p>
+                        <div class="tutorial-stats">
+                            <span><i class="fas fa-clock"></i> 20 min</span>
+                            <span><i class="fas fa-star"></i> Beginner</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tutorial-card">
+                        <div class="tutorial-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <h3>Algebraic Expressions</h3>
+                        <p>Understand variables, coefficients, and how to simplify algebraic expressions.</p>
+                        <div class="tutorial-stats">
+                            <span><i class="fas fa-clock"></i> 25 min</span>
+                            <span><i class="fas fa-star"></i> Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>About CalcSphere</h2>
+                        <p>CalcSphere is your comprehensive mathematical companion, designed to make complex calculations simple and learning mathematics enjoyable. Our platform offers a wide range of calculators, educational articles, and interactive tutorials to support students, professionals, and math enthusiasts.</p>
+                        
+                        <div class="features-list">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Advanced mathematical calculators</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Educational articles and tutorials</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Mobile-responsive design</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Free to use for everyone</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Calculators</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100+</div>
+                            <div class="stat-label">Articles</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">1M+</div>
+                            <div class="stat-label">Calculations</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-calculator"></i>
+                        <span>CalcSphere</span>
+                    </div>
+                    <p>Your ultimate destination for mathematical calculations and educational resources.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Calculators</h3>
+                    <ul>
+                        <li><a href="#">Basic Calculator</a></li>
+                        <li><a href="#">Scientific Calculator</a></li>
+                        <li><a href="#">Percentage Calculator</a></li>
+                        <li><a href="#">Unit Converter</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Formulas</a></li>
+                        <li><a href="#">Examples</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 CalcSphere. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    
+    <!-- Monetag Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+                .then(function(registration) {
+                    console.log('SW registered: ', registration);
+                })
+                .catch(function(registrationError) {
+                    console.log('SW registration failed: ', registrationError);
+                });
+        }
+    </script>
+</body>
+</html>

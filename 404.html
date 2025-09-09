@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page not found - CalcSphere">
+    <title>404 - Page Not Found | CalcSphere</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        .error-container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, var(--surface-color) 0%, var(--background-color) 100%);
+        }
+        
+        .error-content {
+            text-align: center;
+            max-width: 600px;
+        }
+        
+        .error-number {
+            font-size: 8rem;
+            font-weight: 700;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        .error-title {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        
+        .error-description {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+            line-height: 1.6;
+        }
+        
+        .error-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .floating-math {
+            position: absolute;
+            font-size: 2rem;
+            color: var(--primary-color);
+            opacity: 0.3;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        .floating-math:nth-child(1) { top: 10%; left: 10%; animation-delay: 0s; }
+        .floating-math:nth-child(2) { top: 20%; right: 15%; animation-delay: 1s; }
+        .floating-math:nth-child(3) { bottom: 30%; left: 20%; animation-delay: 2s; }
+        .floating-math:nth-child(4) { bottom: 20%; right: 10%; animation-delay: 3s; }
+        
+        @media (max-width: 768px) {
+            .error-number { font-size: 6rem; }
+            .error-title { font-size: 2rem; }
+            .error-description { font-size: 1.125rem; }
+            .error-actions { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="floating-math">π</div>
+        <div class="floating-math">∑</div>
+        <div class="floating-math">∞</div>
+        <div class="floating-math">√</div>
+        
+        <div class="error-content">
+            <div class="error-number">404</div>
+            <h1 class="error-title">Page Not Found</h1>
+            <p class="error-description">
+                Oops! It looks like this page doesn't exist in our mathematical universe. 
+                The equation you're looking for might have been moved or deleted.
+            </p>
+            
+            <div class="error-actions">
+                <a href="index.html" class="btn btn-primary">
+                    <i class="fas fa-home"></i> Go Home
+                </a>
+                <a href="index.html#calculators" class="btn btn-secondary">
+                    <i class="fas fa-calculator"></i> View Calculators
+                </a>
+                <a href="index.html#articles" class="btn btn-outline">
+                    <i class="fas fa-book"></i> Read Articles
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+    <!-- AdsTerra Banner Ad -->
+    <div style="text-align: center; margin: 20px 0;">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : '8ed569a2231942ad9a5b97c827824ecc',
+                'format' : 'iframe',
+                'height' : 60,
+                'width' : 468,
+                'params' : {}
+            };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/8ed569a2231942ad9a5b97c827824ecc/invoke.js"></script>
+    </div>
+    
+    <!-- Monetag Script -->
+    <script type='text/javascript' src='//pl27607969.revenuecpmgate.com/21/cf/f0/21cff0345957042efe167fa2febb3fc3.js'></script>
+</body>
+</html>
